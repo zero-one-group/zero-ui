@@ -1,0 +1,35 @@
+import { Canvas, Meta, Primary, Stories } from "@storybook/blocks";
+import * as DropdownStories from "./dropdown.stories";
+
+<Meta of={DropdownStories} />
+
+# Dropdown
+
+A component allow users to show a list of menu items and can be for select an option from collapsible list
+
+```tsx
+import {
+  DropdownContent,
+  DropdownItem,
+  DropdownMenu,
+  DropdownPositioner,
+  DropdownTrigger,
+} from "@repo/ui-react/dropdown-menu";
+
+<DropdownMenu>
+  <DropdownTrigger asChild>
+    Open Menu
+  </DropdownTrigger>
+  <DropdownPositioner>
+    <DropdownContent>
+      <DropdownItem value="1">Item 1</DropdownItem>
+      <DropdownItem value="2">Item 2</DropdownItem>
+      <DropdownItem value="3">Item 3</DropdownItem>
+    </DropdownContent>
+  </DropdownPositioner>
+</DropdownMenu>
+```
+
+<Primary />
+
+<Stories />

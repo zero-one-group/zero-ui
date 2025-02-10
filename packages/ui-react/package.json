@@ -24,6 +24,7 @@
         "./collapsible": "./src/components/collapsible.tsx",
         "./dialog": "./src/components/dialog.tsx",
         "./divider": "./src/components/divider.tsx",
+        "./dropdown-menu": "./src/components/dropdown-menu.tsx",
         "./heading": "./src/components/heading.tsx",
         "./hover-card": "./src/components/hover-card.tsx",
         "./input": "./src/components/input.tsx",
